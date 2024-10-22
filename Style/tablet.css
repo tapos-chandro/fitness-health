@@ -1,0 +1,36 @@
+@media (max-width: 992px) {
+  .navbar-container,
+  nav > ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .navbar-container {
+    display: flex;
+    flex-direction: row;
+    padding: 52px 30px;
+  }
+
+  .banner-container {
+    padding: 52px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-text-box,
+  .banner-image-box {
+    width: calc(100% - 72px);
+  }
+
+  .tutorial-videos {
+    bottom: 63px;
+    left: 0px;
+    top: 271px;
+    width: 206px;
+    height: 96px;
+  }
+
+  .free-videos {
+    top: 47px;
+    right: 12px;
+    border-radius: 9.07px;
+  }
+}

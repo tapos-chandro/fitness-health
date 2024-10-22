@@ -1,0 +1,20 @@
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .banner-container{
+        padding: 52px 50px 0px 52px;
+    }
+    .tutorial-videos {
+        bottom: 63px;
+        left: 50px;
+        top: 271px;
+        width: 206px;
+        height: 96px;
+      }
+    
+      .free-videos {
+        top: 100px;
+        width: 156px;
+        right: -20px;
+        border-radius: 9.07px;
+      }
+}
