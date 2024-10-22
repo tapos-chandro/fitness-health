@@ -2,17 +2,82 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  
+  --primary-text: rgb(255, 255, 255);
+  --secondary-text: rgba(255, 255, 255, 0.5);
+  --logo-color: #e6533c;
+  --btn-bg:rgb(230, 83, 60);
 }
-
 
 /* font url  */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-/* sheared styles */
+/* sheared styles  */
 
 body {
-    font-family: "Inter";
-    /* font-family: 'Miama' */
+  font-family: 'Inter';
+  /* font-family: 'Miama' */
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
 }
 
+.header-container {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* header styles  */
+
+.header {
+  background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0) 100%
+  );
+  height: 900px;
+}
+
+.header-container {
+  justify-content: space-between;
+  padding: 57px 190px 0px 190px;
+  align-items: center;
+}
+.header-logo {
+  color: var(--logo-color);
+  font-size: 2.5rem;
+  font-family: Inter;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: 0%;
+}
+nav > ul {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  /* border: 1px solid red */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  /* background-color: red; */
+  /* padding: 8px 20px; */
+  /* margin: 0px 20px; */
+}
+nav > ul > li > a {
+  color: var(--primary-text);
+  /* padding: 8px 20px; */
+
+}
+nav > ul > li  {
+  color: var(--primary-text);
+  padding: 8px 20px; 
+  
+  
+}
+.active{
+  background-color: var(--btn-bg) ;
+  border-radius: 46px;
+  
+}
