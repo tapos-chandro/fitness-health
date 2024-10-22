@@ -6,6 +6,7 @@
   --secondary-text: rgba(255, 255, 255, 0.5);
   --logo-color: #e6533c;
   --btn-bg: #e6533c;
+  --bg-primary: black;
 }
 
 /* font url  */
@@ -15,7 +16,6 @@
 
 body {
   font-family: 'Inter';
-  /* font-family: 'Miama' */
 }
 a {
   text-decoration: none;
@@ -25,13 +25,29 @@ li {
 }
 
 .navbar-container,
-.banner-container {
+.banner-container,
+.habits-container {
   max-width: 1440px;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  /* border: 1px solid red; */
   padding: 0px 190px 0px 190px;
+}
+
+.section-title {
+  color: var(--primary-text);
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+}
+.section-description {
+  color: var(--secondary-text);
+  font-size: 0.87rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin-top: 14px;
 }
 
 /* header styles  */
@@ -92,7 +108,6 @@ nav > ul > li {
 }
 .banner-text-box {
   width: 50%;
-  
 }
 .banner-image-box {
   width: 50%;
@@ -103,7 +118,6 @@ nav > ul > li {
   height: 580px;
   padding: 0px 24px 0px 167px;
   position: relative;
-
 }
 .banner-title {
   color: var(--primary-text);
@@ -178,10 +192,10 @@ nav > ul > li {
   gap: 10px;
   position: absolute;
   bottom: 63px;
-  right:256px;
+  right: 256px;
 }
 
-.free-videos{
+.free-videos {
   background: rgba(255, 255, 255, 0.029);
   padding: 17px 23px;
   box-sizing: border-box;
@@ -193,9 +207,50 @@ nav > ul > li {
   top: 120px;
   right: -74px;
 }
-.circle{
+.circle {
   width: 40px;
   height: 40px;
   background-color: var(--logo-color);
   border-radius: 100%;
 }
+
+/* habits styles start  */
+.habits {
+  background: var(--bg-primary);
+  justify-items: center;
+}
+.habits-section-heading-box {
+  text-align: center;
+  padding-top: 100px;
+}
+.habits-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  padding-top: 58px;
+  padding-bottom: 100px;
+}
+/* .habit{
+  width: 231px;
+} */
+.habit > img {
+  width: 100%;
+  border-radius: 100%;
+}
+.habit > h3 {
+  font-size: 1.12rem;
+  font-weight: 600;
+  line-height: 120%;
+  color: var(--primary-text);
+  text-align: center;
+  margin-top: 25px;
+}
+.habit > p {
+  color: var(--secondary-text);
+  text-align: center;
+  font-size: .87rem;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  margin-top: 5px;
+}
+/* habits styles end  */
