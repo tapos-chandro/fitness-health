@@ -18,53 +18,57 @@
     border-radius: 9.07px;
   }
 
-
   /* run easily styles start  */
 
-.run-easily {
-  padding-bottom: 66px;
-}
-.section-title{
-  font-size: 2rem;
-}
+  .run-easily {
+    padding-bottom: 66px;
+  }
+  .section-title {
+    font-size: 2rem;
+  }
 
-.run-easily-container {
-  margin: 0px 50px 50px 50px;
-  gap: 31px;
-}
-.run-easily-text-box,.run-easily-image-box {
-  width: 100%;
-}
-.run-easily-container {
-  padding: 31px 33px;
-}
+  .run-easily-container {
+    margin: 0px 50px 50px 50px;
+    gap: 31px;
+  }
+  .run-easily-text-box,
+  .run-easily-image-box {
+    width: 100%;
+  }
+  .run-easily-container {
+    padding: 31px 33px;
+  }
 
-
-.bmi-heading-box {
-  padding: 0px 20px 40px 20px;
-
-}
+  .bmi-heading-box {
+    padding: 0px 20px 40px 20px;
+  }
   .bmi-calculator-container {
     display: flex;
     padding: 0px 50px 50px 50px;
-
   }
 
-    /* our team styles  */
-    .our-teams{
-      padding: 40px 50px;
-    }
-    .our-teams-container {
-  
-      grid-template-columns: repeat(3, 2fr);
-  
-    }
-  
+  /* our team styles  */
+  .our-teams {
+    padding: 40px 50px;
+  }
+  .our-teams-container {
+    grid-template-columns: repeat(3, 2fr);
+  }
 
-      /* footer style start  */
+  /* our review styles start */
+  .our-reviews-container{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 40px;
+  }
+
+  /* our review styles end  */
+
+
+
+  /* footer style start  */
   .footer {
-
-    grid-template-columns:  1fr;
+    grid-template-columns: 1fr;
     padding: 30px 0px;
     width: calc(100% - 100px);
     gap: 40px;
@@ -73,15 +77,13 @@
     display: flex;
     flex-direction: row;
     gap: 150px;
- 
-}
-.link-box p{
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.3px;
-  padding-top: 20px;
-}
+  }
+  .link-box p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    padding-top: 20px;
+  }
   /* footer style end  */
-
 }

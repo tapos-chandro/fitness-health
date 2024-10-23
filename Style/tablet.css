@@ -89,6 +89,12 @@
 
   }
 
+  .our-reviews-container{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+  }
+
   /* footer style start  */
   .footer {
 
