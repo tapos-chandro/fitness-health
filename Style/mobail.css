@@ -114,20 +114,13 @@
     /* padding: 20px; */
     gap: 31px;
   }
-  .run-easily-text-box,.run-easily-image-box, .run-btn  ,.bmi-heading-box,.bmi-chart-box,.calculate-btn,.bmi-calculate-box{
+  .run-easily-text-box,.run-easily-image-box, .run-btn  ,.bmi-heading-box,.bmi-chart-box,.calculate-btn,.bmi-calculate-box, .our-teams-heading{
     width: 100%;
   }
   .run-easily-container {
     padding: 31px 33px;
   }
   
-  /* bmi calculator styles start  */
-  /* .bmi-heading-box {
-  width: 671px;
-  margin: 0 auto;
-  padding-bottom: 88px;
-} */
-
 .bmi-heading-box {
   padding: 0px 20px 40px 20px;
 
@@ -142,4 +135,39 @@
 }
 
   /* bmi calculator styles end  */
+  .our-teams{
+    padding: 50px 20px;
+    padding-top: 40px;
+  }
+  /* our team styles  */
+  .our-teams-container {
+
+    grid-template-columns: 1fr;
+
+  }
+  /* footer styles start  */
+  .footer {
+
+    grid-template-columns:  1fr;
+    padding: 30px 0px;
+    width: calc(100% - 40px);
+    gap: 40px;
+  }
+  .link-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ 
+}
+.link-box p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  padding-top: 20px;
+}
+
+  /* footer styles end  */
+
+
 }
