@@ -7,6 +7,7 @@
   --logo-color: #e6533c;
   --btn-bg: #e6533c;
   --bg-primary: black;
+  --secondary-bg: #212121;
 }
 
 /* font url  */
@@ -248,9 +249,48 @@ nav > ul > li {
 .habit > p {
   color: var(--secondary-text);
   text-align: center;
-  font-size: .87rem;
+  font-size: 0.87rem;
   line-height: 18px;
   letter-spacing: 0.3px;
   margin-top: 5px;
 }
 /* habits styles end  */
+
+/* run easily styles start  */
+.run-easily {
+  background-color: var(--bg-primary);
+  padding-bottom: 100px;
+}
+.run-easily-container {
+  display: flex;
+  gap: 165px;
+  background: var(--secondary-bg);
+  border-radius: 18px;
+  justify-content: space-between;
+  padding: 30px 32px 29px 54px;
+}
+.run-easily-container {
+  max-width: 1440px;
+  margin: 0 190px;
+  display: flex;
+  align-items: center;
+}
+
+.run-easily-text-box {
+  width: 443px;
+}
+
+.run-btn {
+  width: 224px;
+  height: 54px;
+  margin-top: 15px;
+}
+.run-easily-image-box {
+  width: 366px;
+}
+.run-easily-image-box img {
+  width: 100%;
+  border-radius: 18px;
+}
+
+/* run easily styles end  */
