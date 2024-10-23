@@ -19,4 +19,35 @@
   }
 
 
+  /* run easily styles start  */
+
+.run-easily {
+  padding-bottom: 66px;
+}
+.section-title{
+  font-size: 2rem;
+}
+
+.run-easily-container {
+  margin: 0px 50px 50px 50px;
+  gap: 31px;
+}
+.run-easily-text-box,.run-easily-image-box {
+  width: 100%;
+}
+.run-easily-container {
+  padding: 31px 33px;
+}
+
+
+.bmi-heading-box {
+  padding: 0px 20px 40px 20px;
+
+}
+  .bmi-calculator-container {
+    display: flex;
+    padding: 0px 50px 50px 50px;
+
+  }
+
 }
